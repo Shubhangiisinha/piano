@@ -1,0 +1,41 @@
+/* styles.css */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #143F6B;
+}
+
+.piano {
+  display: flex;
+}
+
+.key {
+  height: 160px;
+  width: 80px;
+  border: 1px solid #333;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+  margin-left: -40px;
+  margin-right: -40px;
+  z-index: 2;
+}
+
+.active {
+  background-color: #CCC;
+}
